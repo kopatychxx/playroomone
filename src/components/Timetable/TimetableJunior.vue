@@ -5,7 +5,7 @@
     style="
       display: flex;
       justify-content: center;
-      width: 1150px;
+      max-width: 1150px;
       margin-top: 70px;
     ">
     <v-slide-group

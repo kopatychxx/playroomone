@@ -6,7 +6,7 @@
     align-items: center;
     background-color: #F4FAFF;
 ">
-    <div class="about__number" >
+    <div class="about__number" style="width: 80%">
       <div class="about__number-row"
            v-for="(row, i) in rows"
            :key="i"
@@ -14,7 +14,7 @@
         display: flex;
         justify-content: space-between;
         align-items: end;
-        width: 800px;
+        width: 100%;
         border-bottom: 1px solid #CFCFCF;
       ">
         <h3 style="
