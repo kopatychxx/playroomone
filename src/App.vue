@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-main>
+      <HeaderComponent/>
       <router-view/>
     </v-main>
   </v-app>
@@ -8,9 +9,10 @@
 
 <script>
 
+import HeaderComponent from '@/components/Header/Header'
 export default {
   name: 'App',
-
+  components: { HeaderComponent },
   data: () => ({
     //
   })

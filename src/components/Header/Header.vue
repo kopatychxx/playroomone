@@ -26,7 +26,7 @@
               v-for="(item, i) in about"
               :key="i"
             >
-              <v-list-item-title><router-link to="/history">{{ item.name }}</router-link></v-list-item-title>
+              <v-list-item-title><router-link :to="item.link">{{ item.name }}</router-link></v-list-item-title>
             </v-list-item>
           </v-list>
         </v-menu>

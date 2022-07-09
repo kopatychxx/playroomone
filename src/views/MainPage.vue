@@ -1,6 +1,5 @@
 <template>
   <div class="mainPage">
-    <HeaderComponent />
     <LandingComponent style="background-color: #F4FAFF;"/>
     <AboutComponent />
     <BenefitsComponent />
@@ -12,7 +11,6 @@
 </template>
 
 <script>
-import HeaderComponent from '@/components/Header/Header'
 import LandingComponent from '@/components/MainPage/LandingComponent'
 import AboutComponent from '@/components/MainPage/AboutComponent'
 import BenefitsComponent from '@/components/MainPage/BenefitsComponent'
@@ -22,7 +20,7 @@ import LessonsComponent from '@/components/MainPage/LessonsComponent'
 import PriceComponent from '@/components/MainPage/PriceComponent'
 export default {
   name: 'MainPage',
-  components: { PriceComponent, LessonsComponent, GroupsComponent, ScheduleComponent, BenefitsComponent, AboutComponent, LandingComponent, HeaderComponent }
+  components: { PriceComponent, LessonsComponent, GroupsComponent, ScheduleComponent, BenefitsComponent, AboutComponent, LandingComponent }
 }
 </script>
 
