@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import MainPage from '@/views/MainPage'
 import TestPage from '@/components/TestPage'
 import ProgramPage from '@/views/ProgramPage'
+import SmallYearPage from '@/views/SmallYearPage'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/program',
     name: 'program',
     component: ProgramPage
+  },
+  {
+    path: '/2-3year',
+    name: '2-3year',
+    component: SmallYearPage
   }
 ]
 

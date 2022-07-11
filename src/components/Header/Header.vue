@@ -84,7 +84,7 @@
               v-for="(item, i) in kindergarten"
               :key="i"
             >
-              <v-list-item-title><router-link to="/history">{{ item.name }}</router-link></v-list-item-title>
+              <v-list-item-title><router-link :to="item.link">{{ item.name }}</router-link></v-list-item-title>
             </v-list-item>
           </v-list>
         </v-menu>
@@ -213,7 +213,8 @@ export default {
         name: 'Контакти',
         link: '/contact'
       }],
-    languages: ['🇺🇦', '🇺🇲'],
+    languages: [
+      '🇺🇦', '🇺🇲'],
     language: '🇺🇦',
     kindergardens: ['Київ', 'Козін'],
     kindergarden: 'Київ'
